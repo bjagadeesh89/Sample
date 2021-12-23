@@ -82,7 +82,7 @@ public class LoginStepDef {
 			driver.findElement(By.id("username")).sendKeys(data.get(0).get("username"));
 	        driver.findElement(By.name("password")).sendKeys(data.get(0).get("password"));
 	        driver.findElement(By.className("radius")).click();
-		System.out.println();
+		
 		}
 		
 		
